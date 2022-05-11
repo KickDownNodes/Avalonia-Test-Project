@@ -89,7 +89,7 @@ namespace AvaloniaApplication9
              {
                  ListBox1.IsEnabled = true;
 
-                 ListBox1.Text = ListBox1.Text + (DateTime.Now.ToLongTimeString() + " : Поиск компьютеров завершен! Найдено: " + Environment.NewLine);
+                 ListBox1.Text = ListBox1.Text + (DateTime.Now.ToLongTimeString() + " : Test text: " + Environment.NewLine);
                  progressBar1.Minimum = 0;
                  progressBar1.Value = 0;
 
@@ -120,7 +120,7 @@ namespace AvaloniaApplication9
                 {
                     ListBox1.IsEnabled = false;
                    
-                    ListBox1.Text = ListBox1.Text + (DateTime.Now.ToLongTimeString() + " : Запуск сканирования заданного диапазона сети" + Environment.NewLine);
+                    ListBox1.Text = ListBox1.Text + (DateTime.Now.ToLongTimeString() + " : Test Finish text" + Environment.NewLine);
                 }
             }
         }
